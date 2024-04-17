@@ -13,4 +13,9 @@ const containsDuplicate = function (nums) {
   return false;
 };
 
-export default containsDuplicate;
+const runContainsDuplicate = () => {
+  console.log(containsDuplicate([1, 2, 3])); // false
+  console.log(containsDuplicate([1, 2, 3, 1])); // true
+};
+
+export default runContainsDuplicate;

@@ -1,3 +1,5 @@
-import containsDuplicate from "./containsDuplicate.js";
+import runContainsDuplicate from "./containsDuplicate.js";
+import runIsAnagram from "./isAnagram.js";
 
-console.log(containsDuplicate([1, 2, 3]));
+// runContainsDuplicate();
+runIsAnagram();
