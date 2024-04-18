@@ -34,6 +34,7 @@ for (let i = 0; i < nums.length; i++) {
 
 // solution 3
 // hashobject create and check with diffrence from target
+/**
 const twoSum = function (nums, target) {
   let hashObject = {};
   for (let i = 0; i < nums.length; i++) {
@@ -44,6 +45,20 @@ const twoSum = function (nums, target) {
     if (matchIndex && matchIndex != i) {
       return [i, matchIndex];
     }
+  }
+};
+*/
+
+// solution 4
+// hashobject create and check with diffrence from target
+const twoSum = function (nums, target) {
+  let hashObject = {};
+  for (let i = 0; i < nums.length; i++) {
+    const complement = target - nums[i];
+    if (hashObject[complement] !== undefined) {
+      return [hashObject[complement], i];
+    }
+    hashObject[nums[i]] = i;
   }
 };
 
