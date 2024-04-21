@@ -5,11 +5,12 @@ import groupAnagrams from "./ groupAnagrams.js";
 import runTopKFrequent from "./topKFrequent.js";
 import runProductExceptSelf from "./productExceptSelf.js";
 import runIsValidSudoku from "./isValidSudoku.js";
-
+import runLongestConsecutive from "./longestConsecutive.js";
 // runContainsDuplicate();
 // runIsAnagram();
 // runTwoSum();
 // groupAnagrams();
 // runTopKFrequent();
 // runProductExceptSelf();
-runIsValidSudoku();
+// runIsValidSudoku();
+runLongestConsecutive();
