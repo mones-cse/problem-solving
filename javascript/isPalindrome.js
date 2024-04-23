@@ -1,3 +1,6 @@
+// 125. Valid Palindrome
+// https://leetcode.com/problems/valid-palindrome/description/
+// solution 1
 var isPalindrome = function (s) {
   const str = s
     .split("")
