@@ -6,15 +6,14 @@ class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         l,r=0,len(numbers)-1
         while l<r:
-            if numbers[l]+numbers[r] > target:
+            curSum = numbers[l]+numbers[r]
+            if curSum > target:
                 r-=1
-                continue
-            if numbers[l]+numbers[r] < target:
+            elif curSum < target:
                 l+=1
-                continue
-            if numbers[l]+numbers[r] == target:
+            else:
                 return [l+1,r+1]
-        return True;
+        return []
 
     def runSumSortedArray(self):
         print(self.twoSum([2,7,11,15],9)) #[1,2]
