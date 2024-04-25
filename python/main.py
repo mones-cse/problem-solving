@@ -3,9 +3,11 @@ import is_palindrome
 import two_sum_sorted_array
 import three_sum
 import max_area
+import trappin_rain_water
 
 # encode_decode.Solution().runSolution()
 # is_palindrome.Solution().runSolution()
 # two_sum_sorted_array.Solution().runSumSortedArray()
 # three_sum.Solution().runThreeSum()
-max_area.Solution().runMaxArea()
+# max_area.Solution().runMaxArea()
+trappin_rain_water.Solution().runTrap()

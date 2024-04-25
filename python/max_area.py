@@ -12,7 +12,7 @@ class Solution:
     #             result=max(result,prod)
     #     return result
 
-    # solution 2
+    # solution 2: using point O(n)
     def maxArea(self, height: List[int]) -> int:
         result=0
         l,r=0,len(height)-1
@@ -22,7 +22,6 @@ class Solution:
                 l=l+1
             else:
                 r=r-1
-
         return result
     
     def runMaxArea(self):
