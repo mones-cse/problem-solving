@@ -5,6 +5,8 @@ import three_sum
 import trappin_rain_water
 import single_number
 import canPlaceFlowers
+import canBeIncreasing
+import hasGroupsSizeX
 
 # encode_decode.Solution().runSolution()
 # is_palindrome.Solution().runSolution()
@@ -13,4 +15,6 @@ import canPlaceFlowers
 # max_area.Solution().runMaxArea()
 # trappin_rain_water.Solution().runTrap()
 # single_number.Solution().runSingleNumber()
-canPlaceFlowers.Solution().runMaxArea()
+# canPlaceFlowers.Solution().runMaxArea()
+canBeIncreasing.Solution().runCanBeIncreasing()
+hasGroupsSizeX.Solution().runHasGroupsSizeX()
