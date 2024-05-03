@@ -55,25 +55,23 @@ class Solution:
         return icIncreasing
     
     def runCanBeIncreasing(self):
-        # print(self.canBeIncreasing([1]),"true") # true
-        # print(self.canBeIncreasing([1,2]),"true") # true
-        # print(self.canBeIncreasing([2,1]),"true") # true
-        # print(self.canBeIncreasing([1,1,1]),"false") # false
-        # print(self.canBeIncreasing([3,2,1]),"false") # false
-        # print(self.canBeIncreasing([2,1,3]),"true") # true
-        # print(self.canBeIncreasing([3,2,1]),"false") # false
-        # print(self.canBeIncreasing([1,2,3]),"true") # true
-        # print(self.canBeIncreasing([1,3,2]),"true") # true
-        # print(self.canBeIncreasing([1,2,10,5,7]),"true") # true
-        # print(self.canBeIncreasing([2,3,1,2]),"false") # false
-        # print(self.canBeIncreasing([1,1,1]),"false") # false
-        # print(self.canBeIncreasing([3,1,1])) # false
-        # print(self.canBeIncreasing([105,924,32,968]),"true") # true
+        print(self.canBeIncreasing([1]),"true") # true
+        print(self.canBeIncreasing([1,2]),"true") # true
+        print(self.canBeIncreasing([2,1]),"true") # true
+        print(self.canBeIncreasing([1,1,1]),"false") # false
+        print(self.canBeIncreasing([3,2,1]),"false") # false
+        print(self.canBeIncreasing([2,1,3]),"true") # true
+        print(self.canBeIncreasing([3,2,1]),"false") # false
+        print(self.canBeIncreasing([1,2,3]),"true") # true
+        print(self.canBeIncreasing([1,3,2]),"true") # true
+        print(self.canBeIncreasing([1,2,10,5,7]),"true") # true
+        print(self.canBeIncreasing([2,3,1,2]),"false") # false
+        print(self.canBeIncreasing([1,1,1]),"false") # false
+        print(self.canBeIncreasing([3,1,1]),"false") # false
+        print(self.canBeIncreasing([105,924,32,968]),"true") # true
         print(self.canBeIncreasing([1,2,3]),"true") # true
         print(self.canBeIncreasing([1,1]),"true") # true
         print(self.canBeIncreasing([100,21,3]),"false") # false
-
-        [105,924,32,968]
 
 
 

@@ -16,5 +16,5 @@ import hasGroupsSizeX
 # trappin_rain_water.Solution().runTrap()
 # single_number.Solution().runSingleNumber()
 # canPlaceFlowers.Solution().runMaxArea()
-canBeIncreasing.Solution().runCanBeIncreasing()
+# canBeIncreasing.Solution().runCanBeIncreasing()
 hasGroupsSizeX.Solution().runHasGroupsSizeX()
