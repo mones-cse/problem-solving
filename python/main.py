@@ -7,6 +7,7 @@ import single_number
 import canPlaceFlowers
 import canBeIncreasing
 import hasGroupsSizeX
+import valid_parentheses
 
 # encode_decode.Solution().runSolution()
 # is_palindrome.Solution().runSolution()
@@ -17,4 +18,5 @@ import hasGroupsSizeX
 # single_number.Solution().runSingleNumber()
 # canPlaceFlowers.Solution().runMaxArea()
 # canBeIncreasing.Solution().runCanBeIncreasing()
-hasGroupsSizeX.Solution().runHasGroupsSizeX()
+# hasGroupsSizeX.Solution().runHasGroupsSizeX()
+valid_parentheses.Solution().runIsValidParentheses()
